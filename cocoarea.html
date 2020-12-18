@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cocoarea</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+/* image */
+.img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color:antiquewhite;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: left;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+</style>
+</head>
+</body>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Great Indian Festival Sale!!</h2>
+      <h5>30th OCTOBER to 25th NOVEMBER</h5>
+     <div><img src="pica1.jpeg" style="height:270px;"></div>
+     <div><img src="pica5.jpeg" style="height:230px;">&nbsp&nbsp
+     <img src="pica7.jpeg" style="height:230px;"></div>
+      <p>MINIMUM 50% OFF BUY NOW!  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp UPTO 50% OFF BUY NOW!</p>
+      <p></p>
+    </div>
+    <div class="card">
+      <h2>BIG SALE! FESTIVAL OFFER %</h2>
+      <h5>1st NOVEMBER to 25th NOVEMBER</h5>
+      <div><img src="pica8.jpeg" style="height:390px;"></div>
+      <p>FESTIVE OFFER ! SHOP NOW!</p>
+      <p></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <center><h2>Today's Sale</h2>
+      <div><img src="pic12.png" style="height:130px;">MI MIX2</div>
+      <p>At Rs 29,999 <a href="#">Buy Now!</p> </a></center>
+    </div>
+    <div class="card">
+      <center><h3>DISCOUNTS %</h3></center>
+      <div><img src="pica3.jpeg" style="height:325px;"></div>
+      <div><img src="pica4.jpeg" style="height:325px;"></div>
+      <div><img src="pica6.jpeg" style="height:325px;"></div>
+    </div>
+    <div class="card">
+      <h3><center>Follow Me</center></h3>
+      <p><b>CONTACT US AT:<br><br>9845673245&nbsp/&nbsp2511717</b></p>
+
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+<pre>
+<center><img src="pica10.jpeg" style="height:180px;"></center>
+
+
+<b>COMPANY</b>        		<b>POLICY INFO</b>  			      <b> NEED HELP?</b>        	    <b>SUBSCRIBE</b>					<b>COCO BUSINESS</b>
+
+Home			Privacy policy 				FAQ		           Your e-mail address 				Online shopping
+Address 		Terms of sale                          Contact us                  Register now to get updates on promotion	Sell on coco
+About us 		Terms of use                           Andriod help                and coupons or download app
+Core values 	 	Report abuse and takedown policy 
+
+<center><b>&copy; 2018 www.CoCo.com. All rights reserved</b></center>
+</pre>
+</div>
+</body>
+</html>
